@@ -1150,8 +1150,6 @@ void MapPort()
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
     {"rubitpool.org", "dnsseed.rubitpool.org"},
-    {"bytesized-vps.com", "dnsseed.bytesized-vps.com"},
-    {"xurious.com", "dnsseed.ltc.xurious.com"},
 };
 
 void ThreadDNSAddressSeed(void* parg)
